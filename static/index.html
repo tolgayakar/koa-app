@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <section>
+      <form class="request" onsubmit="getUserData(event)">
+        <label for="id">Id: </label><br />
+        <input type="text" id="id" name="id" class="request-input" value="0" />
+        <button class="request-button" type="submit">
+          Click to get a response
+        </button>
+      </form>
+      <p id="response-title" class="response-title"></p>
+      <p id="response-subtitle" class="response-subtitle"></p>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "example-kubernetes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.15.0",
+    "koa-compress": "^5.1.1",
+    "koa-logger": "^3.2.1",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0",
+    "prom-client": "^15.1.0"
+  }
+}

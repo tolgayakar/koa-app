@@ -1,0 +1,36 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.request-input {
+  background-color: white;
+  padding: 8px 16px;
+}
+
+.request-button {
+  outline: 0;
+  background-color: #49b9f9;
+  padding: 8px 16px;
+  border: 0;
+}
+
+.response-title {
+  margin-top: 16px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.response-title,
+.response-subtitle {
+  text-align: center;
+}
